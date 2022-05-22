@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&family=Rock+Salt&display=swap');
+
 #active {
     background-color: #141e0d00;
     color: #2e06f5;
@@ -12,6 +14,8 @@ nav a {
     text-align: center;
     color: #0b46c7;
     text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding: 35px;
 }
 nav a:hover {
     background-color: #000000;
@@ -25,6 +29,7 @@ nav a:hover {
 #hero-msg h4 {
     text-align: center;
     color: #0b9bc7ef;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 #hero-img {
@@ -33,10 +38,33 @@ nav a:hover {
 
 .button-box {
     text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 
 .home-grid {
     text-align: center;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+.card-img {
+    border: 10px solid #8B8E90;
+}
+.rivers-card {
+    margin: 200px 0;
+}
+.rivers-card h2 {
+    color: #0B23F7
+}
+.camping-card {
+    margin: 200px 0;
+}
+.camping-card h2 {
+    color: #7D8403
+}
+.rapids-card {
+    margin: 200px 0;
+}
+.rapids-card h2 {
+    color: #270BC7
 }
 
 #background {
@@ -47,25 +75,38 @@ nav a:hover {
 .logo {
     width: 80px;
 }
+#logo_link {
+    padding-top: 5px;
+}
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
-
-
 
 body {
     background-color: #fcfbfb; 
+    font-size: 22px;
+    padding: 0;
+    margin: 0;
+}
+
+h2 {
+    margin: 0;
 }
 
 header {
-    background-color:rgba(20, 30, 13, 0.523);
+    background-color: #8B8E90;
 }
 
 .book {
     background-color: #fcfbfb;
     color: #140278;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .book:hover {
@@ -77,6 +118,10 @@ header {
     background-color: #eceeef4c;
     color: #140278;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 
 .join:hover {
@@ -86,10 +131,25 @@ header {
 
 .msg {
     background-color: #a0a9ad4c;
+    line-height: 1.5em;
+    padding: 35px;
+}
+.msg h2 {
+    color: #a59b31;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+}
+
+.msg p {
+    color: #7D8403;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: .8em;
+    padding-bottom: 15px;
 }
 
 footer {
     background-color: rgba(139, 142, 144, 0.108);
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 footer h3 {
     color: #7f7f7f;
@@ -103,18 +163,22 @@ footer a:hover {
     color: #a59b31;
     text-decoration: underline;
 }
+footer .social img {
+    padding-top: 15px;
+}
 
 .home-title {
-    color: rgba(39, 11, 199, 0.812);
+    color: #270bc7cf;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
 }
 
-.msg h2 {
-    color: #a59b31;
+main section img {
+    box-sizing: border-box;
 }
 
-.msg p {
-    color: #7d8403;
-}
+
 
 
 
