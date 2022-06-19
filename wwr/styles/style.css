@@ -231,14 +231,168 @@ footer .social img {
     margin-top: 10px;
 }
 
-
 main section img {
     box-sizing: border-box;
 }
 
 
+
+/* Page 2 (Rivers) CSS code: */
+
+#hero2 {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin-top: -100px;
+}
+#hero-box2 {
+    grid-column: 1/4;
+    grid-row: 1/3;
+    z-index: -1;
+}
+#hero-msg2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    margin-top: 100px;
+}
+#hero-msg2 h1 {
+    text-align: center;
+    color: #2e05fc;
+}
+#hero-msg2 h4 {
+    text-align: center;
+    color: #3e03fffd;
+    font-family: Roboto, Helvetica, sans-serif;
+}
+#hero-img2 {
+    width: 100%;
+}
+
+.home-title2 {
+    color: #270bc7cf;
+    font-family: 'Rock Salt', 'Bradley Hand', sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
+.rivers-grid {
+    text-align: left;
+    font-family: Roboto, Helvetica, sans-serif;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.river1box {
+    margin-top: 165px;
+    grid-column: 1/4;
+    grid-row: 1/2;
+    text-align: center;
+}
+.river1box h2 {
+    text-align: center;
+    margin: 45px;
+    color: #8B8D90;
+}
+.river1msg {
+    margin: 25px;
+    color: #7D8403;
+    font-size: 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.river2box {
+    margin-top: 70px;
+    grid-column: 1/4;
+    grid-row: 3/4;
+    text-align: center;
+}
+.river2box h2 {
+    text-align: center;
+    margin: 45px;
+    color: #8B8D90;
+}
+.river2msg {
+    margin: 25px;
+    color: #7D8403;
+    font-size: 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+.river3box {
+    margin-top: 70px;
+    grid-column: 1/4;
+    grid-row: 5/6;
+    text-align: center;
+}
+.river3box h2 {
+    text-align: center;
+    margin: 45px;
+    color: #8B8D90;
+}
+.river3msg {
+    margin: 25px;
+    color: #7D8403;
+    font-size: 30px;
+    font-family: Roboto, Helvetica, sans-serif;
+    grid-column: 1/4;
+    grid-row: 6/7;
+}
+
+.river-img {
+    width: 85%;
+    border: 10px solid #d9c2a3;
+    transition: transform .5s;
+    box-shadow: 5px 5px 10px #6f7364;   
+}
+.river-img:hover {
+    opacity: .9;
+    transform: scale(1.02);
+}
+
+.msg2 {
+    background-color: #a0a9ade4;
+    line-height: 1.5em;
+    padding: 35px;
+    grid-column: 1/4;
+    grid-row: 7/8;
+    box-shadow: 5px 5px 10px #6f7364;
+    margin-bottom: auto;
+    margin-top: 145px;
+}
+.msg2:hover {
+    opacity: .9;
+    transform: scale(1.02);
+}
+.msg2 h2 {
+    color: #270BC7;
+    font-family: 'Rock Salt', Helvetica, sans-serif;
+    text-align: center;
+}
+.msg2 p {
+    color: #0B23F7;
+    font-family: Roboto, Helvetica, sans-serif;
+    padding-bottom: 15px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+/* FOR MOBILE DISPLAY:  */
+
+
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
+        display: block;
+        height: auto;
+    }
+    #hero2, .rivers-grid {
         display: block;
         height: auto;
     }
@@ -252,13 +406,26 @@ main section img {
     #hero {
         margin-top: 0;
     }
+    #hero2 {
+        margin-top: 0;
+    }
     #hero-msg {
+        margin-top: 0;
+    }
+    #hero-msg2 {
         margin-top: 0;
     }
     #hero-msg h4 {
         display: none;
     }
+    #hero-msg2 h4 {
+        display: none;
+    }
     .home-title {
+        font-size: 25px;
+        color: #6f7364;
+    }
+    .home-title2 {
         font-size: 25px;
         color: #6f7364;
     }
@@ -270,6 +437,11 @@ main section img {
         display: none;
     }
     .mountains, .msg {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+    }
+    .msg2 {
         width: 80%;
         display: block;
         margin: 0 auto;
