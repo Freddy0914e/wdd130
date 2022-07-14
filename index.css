@@ -1,0 +1,27 @@
+#contents {
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+}
+
+nav a {
+    text-align: center;
+    text-decoration: none;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 25px;
+    margin: 0 auto;
+}
+nav a:hover {
+    background-color: #000000;
+    color: #c70b0b;
+}
+
+p {
+    font-size: 25px;
+}
